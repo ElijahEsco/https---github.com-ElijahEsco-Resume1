@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        header {
+            color: white;
+            background-color: #1C2833;
+            padding: 10px;
+            margin: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        } */
+        .container{
+            display: grid;
+            grid-template-areas: 
+            "sidebar content";
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            width: 100vw;
+            height: 100vh;
+        }
+        aside{
+            grid-area: sidebar;
+            background-color: #EAF0F4;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 30px;
+            text-align: center;
+        }
+        article{
+            padding-left: 300px;
+            grid-area: content;
+            padding-top: 30px;
+            text-align: left;
+            width: 200%;
+            height: 100%;
+        }
+        .fa {
+            text-align: center;
+            padding: 5px;
+            font-size: 20px;
+            width: 20px;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        .fa-facebook {
+                background: #3B5998;
+                color: white
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 style="font-size: 70px">Elijah Escobal</h1>
+    <p><u>Software Developer</u></p>
+    </header>
+    <div class="container">
+        <aside>
+            <h1>C O N T A C T</h1>
+            <p>
+                <b>LOCATION</b>
+                <br><br>
+                San Antonio, TX
+                <br><br>
+                <b>PHONE</b>
+                <br><br>
+                (806)-584-5446
+                <br><br>
+                <b>EMAIL</b>
+                <br><br>
+                isiahescobal@gmail.com
+                <br><br>
+
+                <h1>S O C I A L</h1>
+                <a href="#" class="fa fa-facebook"></a> isiah_escobal
+                <br><br>
+                <a href="#" class="fa fa-twitter"></a> IsiahEscobal
+                <br><br>
+                <a href="#" class="fa fa-linkedin"></a> isiah_escobal
+                <br><br>
+            
+            <h1>E D U C A T I O N</h1>
+            
+                <b>West Texas A&M Univerity | Canyon, TX</b>
+                <br><br>
+                Pursuing B.B.A - Computer Information Systems
+                <br><br>
+                GPA: 3.5/4.0
+            </p>
+        </aside>
+    <article>
+    <h1>S U M M A R Y &nbsp;&nbsp; O F &nbsp;&nbsp; Q U A L I F I C A T I O N S </h1>
+    <ul>
+        <li>Proficient in Microsoft Office Suite, C#, JavaScript, Java, HTML, 
+            Python<br><br> and diligent in learning skills to write codes in various programming<br><br> languages.</li><br>
+        <li>Proven record of managing cash register, other necessary accounting, and<br><br> providing excellent customer service.</li>
+    </ul>
+    <h1>E M P L O Y M E N T &nbsp;&nbsp; H I S T O R Y</h1>
+    <p><b>Walmart Inc. | Canyon, TX | Cashier</b>
+        <ul>
+            <li>Maintained high productivity by efficiently processing cash, credit, and<br><br> debit payments for
+                customers.</li><br>
+            <li>Worked closely with front-end staff to handle customer service issues and<br><br> maintain satisfaction levels.</li>
+        </ul>
+        <b>Fellhauer Cattle Co. | Hereford, TX | Maitenance Supervisor</b>
+        <ul>
+            <li>Oversee and assist two other maintenance workers in tasks such as<br><br> carpentry projects, furniture restoration, and seasonal yard work.</li><br>
+            <li>Assist in handling financial records and statements.</li><br>
+        </ul>
+        <h1>O R G A N I Z A T I O N S</h1>
+        <ul>
+            <li>Volunteer for Adopt-a-highway clean-up</li><br>
+            <li>Volunteer for Hereford food pantry</li><br>
+            <li>Volunteer referee for Hereford Sports and Wellness</li><br>
+        </ul>
+    </p>
+    </article>
+</div>
+</body>

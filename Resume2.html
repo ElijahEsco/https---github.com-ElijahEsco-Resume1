@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        header {
+            color: white;
+            background-color: #1C2833;
+            padding: 10px;
+            margin: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-areas: 
+            "sidebar content";
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+            width: 100vw;
+            height: 100vh;
+        }
+        aside{
+            grid-area: sidebar;
+            background-color: #003A80;
+            color: white;
+            padding-left: 0px;
+            padding-right: 0px;
+            text-align: left;
+        }
+        article{
+            padding-left: 10px;
+            grid-area: content;
+            padding-top: 30px;
+            text-align: left;
+            width: 200%;
+            height: 100%;
+        }
+        .fa {
+            text-align: center;
+            padding: 5px;
+            font-size: 20px;
+            width: 20px;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        .fa-facebook {
+                background: #3B5998;
+                color: white
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        .bars{
+            background-color: #03234B;
+            padding: 10px;
+            margin: 0px;
+        }
+        .indent{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .skills {
+            text-align: right; 
+            padding-top: 0px; 
+            padding-bottom: 0px; 
+            color: black; 
+        }
+        .html {
+            width: 50%; 
+            background-color: white;
+        }
+        .C {
+            width: 90%; 
+            background-color: white;
+        }
+        .py {
+            width: 70%; 
+            background-color: white;
+        }
+        .colab {
+            width: 100%; 
+            background-color: white;
+        }
+        .lead {
+            width: 80%; 
+            background-color: white;
+        }
+        .arthead{
+            color: #003A80;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header>
+    <h1 style="font-size: 70px">Elijah Escobal</h1>
+    <p><u>Customer Service Representative</u></p>
+    </header> -->
+    <div class="container">
+        <aside>
+            <div class="indent">
+            <p>
+            <h1 style="font-size: 40px;">Elijah Escobal</h1><br>
+            <h3>Software Developer</h3>
+        </div><br>
+                <h2 class="bars">Personal Info</h2>
+                <br>
+                <div class="indent">
+                <b>Phone</b>
+                <br><br>
+                (806)-584-5446
+                <br><br>
+                <b>EMAIL</b>
+                <br><br>
+                isiahescobal@gmail.com
+                <br><br>
+                <b>LinkedIn</b>
+                <br><br>
+                linkedin.com/in/IsiahEscobal
+                <br><br>
+                <b>Twitter</b>
+                <br><br>
+                twitter.com/IsiahEscobal
+                <br><br>
+                <b>Facebook</b>
+                <br><br>
+                facebook.com/IsiahEscobal
+                <br><br>
+            </div>
+            <h2 class="bars">Hard Skills</h2>
+            <br>
+            <div class="indent">
+                <b>HTML</b>
+                <div class="skills html">50%</div>
+                <br>
+                <b>C#</b>
+                <div class="skills C">90%</div>
+                <br>
+                <b>Python</b>
+                <div class="skills py">70%</div>
+            </div>
+            <br>
+            <h2 class="bars">Soft Skills</h2>
+            <br>
+            <div class="indent">
+                <b>Colaboration</b>
+                <div class="skills colab">100%</div>
+                <br>
+                <b>Leadership</b>
+                <div class="skills lead">80%</div>
+                <br>
+            </div>
+            </p>
+        </aside>
+    <article>
+    <!-- <ul>
+        <li>Proficient in Microsoft Office Suite, C#, JavaScript, Java, HTML, 
+            Python<br><br> and diligent in learning skills to write codes in various programming<br><br> languages.</li><br>
+        <li>Proven record of managing cash register, other necessary accounting, and<br><br> providing excellent customer service.</li>
+    </ul> -->
+    <hr>
+    <h1 class="arthead">Experience</h1>
+    <hr><br>
+    <p><b>Walmart Inc. | Canyon, TX | Cashier</b><br><br>
+        <ul>
+            <li>Maintained high productivity by efficiently processing cash, credit, and<br><br> debit payments for
+                customers.</li><br>
+            <li>Worked closely with front-end staff to handle customer service issues and<br><br> maintain satisfaction levels.</li><br>
+        </ul>
+        <b>Fellhauer Cattle Co. | Hereford, TX | Maitenance Supervisor</b><br><br>
+        <ul>
+            <li>Oversee and assist two other maintenance workers in tasks such as<br><br> carpentry projects, furniture restoration, and seasonal yard work.</li><br>
+            <li>Assist in handling financial records and statements.</li><br>
+        </ul>
+        <hr>
+        <h1 class="arthead">Education</h1>
+        <hr><br>
+        <b>West Texas A&M Univerity | Canyon, TX</b>
+                <br><br>
+                Pursuing B.B.A - Computer Information Systems
+                <br><br>
+                GPA: 3.5/4.0
+        <br><br>
+        <hr>
+        <h1 class="arthead">Organizations</h1>
+        <hr><br>
+        <ul>
+            <li>Volunteer for Adopt-a-highway clean-up</li><br>
+            <li>Volunteer for Hereford food pantry</li><br>
+            <li>Volunteer referee for Hereford Sports and Wellness</li><br>
+        </ul>
+    </p>
+    </article>
+</div>
+</body>
